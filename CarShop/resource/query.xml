@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="selectList">
+        SELECT * FROM CONTRACT;
+    </entry>
+    <entry key="insert">
+        insert into CONTRACT values (
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+            ?,
+        );
+    </entry>
+    <entry key="delete">
+
+    </entry>
+</properties>
