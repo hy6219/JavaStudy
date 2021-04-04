@@ -1,42 +1,5 @@
-# ※ 중요
-master에 push하지 마시고 각자 branch를 만드신 후에 branch로 push 해주세요.
-
-master는 공지사항 및 공통사항만 올려놓으려고 합니다.!!
+# 자바 스터디 진행 내용 중 각자 확장시킨 프로젝트 소개
 
 
-## 원격 저장소를 지역 저장소로 설정하기
-1. git clone [URL] [USED_DIRECTORY]
-~~~
-     ex ) $ git clone [https://github.com/RH0001/javaStudy](https://github.com/RH0001/javaStudy) hardTest
-~~~     
-
-2. cd [USED_DIRECTORY]
-~~~
-     ex ) $ cd hardTest
-~~~
-3. git remote -v
-~~~
-     ex ) $ git remote -v
-~~~    
-## Branch 생성 및 Branch파일 업로드
-
-1. git pull
-~~~
-     ex ) $ git pull
-~~~
-2. git checkout -b [brenchName]
-~~~
-     ex ) $ git checkout -b hard
-~~~
-3. git add [FILE]
-~~~
-     ex ) $ git add test.txt
-~~~
-4. git commit -m "[commit message]"
-~~~
-     ex ) $ git commit -m "처음 올리는 파일"
-~~~
-5. git push origin [brenchName]
-~~~
-     ex ) $ git push origin hard
-~~~
+1. <a href="https://github.com/RH0001/JavaStudy/tree/jisoo/Java_okky_study#readme">Car 클래스 확장</a>
+2. <a href="https://github.com/RH0001/JavaStudy/blob/jisoo/jHealth_Ext/ver2.0/jHealthUp_ver2/readme.md">jHealthUp 확장</a>
