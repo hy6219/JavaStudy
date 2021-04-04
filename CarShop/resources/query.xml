@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> 
+<properties>
+	<entry key="selectList">
+		select * from 
+			CARSHOP
+	</entry>
+	
+	<entry key="delete">
+		DELETE from 
+				CARSHOP 
+					where USERNAME = ?
+	</entry>
+	
+	<entry key="insert">
+		INSERT INTO 
+			CARSHOP
+				VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+	</entry>
+	
+	<entry key="modifyer">
+		UPDATE  CARSHOP
+            SET UserSSN = ?, 
+                USerPHONE = ?,
+                USERADDRESS = ?,
+                USEREMAIL = ?,
+                BRAND = ?,
+                MODEL = ?,
+                TYPE = ?,
+                GEARTYPE = ?,
+                COLOR = ?,
+                DOOR = ?,
+                CC = ?,
+                FUEL = ?,
+                PRICE = ?
+                    WHERE USERNAME = ?
+	</entry>
+</properties>
