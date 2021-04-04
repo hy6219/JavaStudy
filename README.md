@@ -6,35 +6,37 @@ master는 공지사항 및 공통사항만 올려놓으려고 합니다.!!
 
 ## 원격 저장소를 지역 저장소로 설정하기
 1. git clone [URL] [USED_DIRECTORY]
-
+'''
      ex ) $ git clone [https://github.com/RH0001/javaStudy](https://github.com/RH0001/javaStudy) hardTest
+'''     
 
 2. cd [USED_DIRECTORY]
-
+'''
      ex ) $ cd hardTest
-
+'''
 3. git remote -v
-
+'''
      ex ) $ git remote -v
-     
+'''     
 ## Branch 생성 및 Branch파일 업로드
 
 1. git pull
-
+'''
      ex ) $ git pull
-
+'''
 2. git checkout -b [brenchName]
-
+'''
      ex ) $ git checkout -b hard
-
+'''
 3. git add [FILE]
-
+'''
      ex ) $ git add test.txt
-
+'''
 4. git commit -m "[commit message]"
-
+'''
      ex ) $ git commit -m "처음 올리는 파일"
-
+'''
 5. git push origin [brenchName]
-
+'''
      ex ) $ git push origin hard
+'''
